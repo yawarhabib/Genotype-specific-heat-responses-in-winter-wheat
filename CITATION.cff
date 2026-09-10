@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Habib
     given-names: Yawar
-repository-code: "https://github.com/<account>/wheat-heat-tolerance-Mv-cultivars"
+repository-code: "https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat"
 license: MIT
 preferred-citation:
   type: article

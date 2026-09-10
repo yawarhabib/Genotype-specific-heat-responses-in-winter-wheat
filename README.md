@@ -1,6 +1,6 @@
 # Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars
 
-R code and data for the statistical analysis and figures of the manuscript
+R code and data for the statistical analysis and figures of the manuscript. Repository: https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat
 
 > Rahman A., Habib Y., Jara Quispe A., Elguera J.P., Krecsák H., Khan I., Pál M., Balla K., Gechev T., Majláth I.
 > *Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars* (manuscript under revision).
