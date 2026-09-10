@@ -1,0 +1,24 @@
+{
+  "title": "Data and analysis code: Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars",
+  "upload_type": "software",
+  "description": "Raw data and R scripts that reproduce every statistical analysis and figure of the manuscript \"Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars\" (Rahman, Habib et al.). Six Martonvasar winter wheat cultivars were grown at 20, 35 and 40 degrees C and profiled for shoot biomass, leaf gas exchange, photosynthetic pigments, ascorbate-glutathione enzymes, reactive-carbonyl detoxification enzymes, phenylalanine ammonia-lyase and free polyamines. Eight numbered scripts fit two-way linear models with Type II ANOVA and Tukey-adjusted comparisons within temperature, and run the principal component analysis, the stress-tolerance-index heatmap and the Spearman correlation matrix. Code is released under the MIT licence and the data files under CC BY 4.0.",
+  "creators": [
+    {
+      "name": "Habib, Yawar",
+      "affiliation": "Center for Bio and Medical Technologies, Skolkovo Institute of Science and Technology, Moscow, Russia"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "Triticum aestivum",
+    "heat stress",
+    "antioxidant enzymes",
+    "reactive carbonyl species",
+    "polyamines",
+    "stress-tolerance index",
+    "R",
+    "reproducible analysis"
+  ],
+  "language": "eng"
+}
