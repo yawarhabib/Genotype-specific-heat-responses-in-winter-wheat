@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the manuscript below."
+title: "Code and data: Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars"
+type: software
+authors:
+  - family-names: Habib
+    given-names: Yawar
+repository-code: "https://github.com/<account>/wheat-heat-tolerance-Mv-cultivars"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars"
+  authors:
+    - family-names: Rahman
+      given-names: Altafur
+    - family-names: Habib
+      given-names: Yawar
+    - family-names: Jara Quispe
+      given-names: Andrea
+    - family-names: Elguera
+      given-names: Jhohan Piero
+    - family-names: Krecsák
+      given-names: Hedvig
+    - family-names: Khan
+      given-names: Imran
+    - family-names: Pál
+      given-names: Magda
+    - family-names: Balla
+      given-names: Krisztina
+    - family-names: Gechev
+      given-names: Tsanko
+    - family-names: Majláth
+      given-names: Imre
+  year: 2026
+  notes: "manuscript under revision"
