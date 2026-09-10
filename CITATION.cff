@@ -6,6 +6,9 @@ authors:
   - family-names: Habib
     given-names: Yawar
 repository-code: "https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat"
+doi: 10.5281/zenodo.22692577
+version: v1.0
+date-released: "2026-09-10"
 license: MIT
 preferred-citation:
   type: article

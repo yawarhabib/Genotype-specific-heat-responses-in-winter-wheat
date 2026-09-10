@@ -1,6 +1,8 @@
 # Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars
 
-R code and data for the statistical analysis and figures of the manuscript. Repository: https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22692577.svg)](https://doi.org/10.5281/zenodo.22692577)
+
+R code and data for the statistical analysis and figures of the manuscript. Repository: https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat · Archived at Zenodo: https://doi.org/10.5281/zenodo.22692577 (concept DOI, resolves to the latest release; v1.0: https://doi.org/10.5281/zenodo.22692578)
 
 > Rahman A., Habib Y., Jara Quispe A., Elguera J.P., Krecsák H., Khan I., Pál M., Balla K., Gechev T., Majláth I.
 > *Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars* (manuscript under revision).
@@ -64,6 +66,10 @@ install.packages(c("here", "dplyr", "tidyr", "purrr", "stringr", "tibble", "ggpl
                    "multcomp", "corrplot", "circlize", "BiocManager"))
 BiocManager::install("ComplexHeatmap")
 ```
+
+## How to cite
+
+Habib, Y. (2026). Data and analysis code: Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars (v1.0). Zenodo. https://doi.org/10.5281/zenodo.22692577
 
 ## Licence
 
