@@ -71,4 +71,4 @@ Code: [MIT](LICENSE). Data (`data/`): [CC BY 4.0](data/LICENSE).
 
 ## Contact
 
-Yawar Habib (analysis and code)
+Yawar Habib (analysis and code) — Center for Bio and Medical Technologies, Skolkovo Institute of Science and Technology, Moscow, Russia. y.habib@skoltech.ru · GitHub: [@yawarhabib](https://github.com/yawarhabib)
