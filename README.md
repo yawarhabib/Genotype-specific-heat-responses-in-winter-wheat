@@ -71,4 +71,4 @@ Code: [MIT](LICENSE). Data (`data/`): [CC BY 4.0](data/LICENSE).
 
 ## Contact
 
-Yawar Habib (analysis and code) · Imre Majláth, corresponding author: majlath.imre@atk.hun-ren.hu
+Yawar Habib (analysis and code)
