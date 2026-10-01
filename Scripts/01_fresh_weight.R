@@ -12,10 +12,9 @@
 ## Shoot fresh weight (g per plant) of six Mv winter wheat cultivars grown at 20 (control),
 ## 35 and 40 degrees C, n = 7 plants per genotype x temperature.
 ##
-## Model : FW ~ Genotype * Temperature (fixed effects), Type II ANOVA (car::Anova).
-## Checks: Shapiro-Wilk on residuals and Levene's test; both fail on the raw scale
-##         (P = 0.002 and 0.031) and pass after log transformation (P = 0.34 and 0.85),
-##         so the model is fitted to log(FW).
+## Model : log(FW) ~ Genotype * Temperature (fixed effects), Type II ANOVA (car::Anova).
+## Checks: Shapiro-Wilk on the residuals and Levene's test, computed on the raw and the
+##         log scale and written to the assumptions file.
 ## Letters: cultivars compared within each temperature on estimated marginal means
 ##         (emmeans), Tukey-adjusted, compact letter display with "a" = highest mean.
 ## Plot  : radar of the raw (untransformed) genotype x temperature means in g per plant,
@@ -88,7 +87,7 @@ assumptions <- data.frame(
 cat("\nAssumption checks (raw vs log scale):\n"); print(assumptions, digits = 3)
 write.csv(assumptions, "results/01_FW_assumptions.csv", row.names = FALSE)
 
-## Raw scale fails both tests, log scale passes both -> analyse log(FW)
+## The model on the log scale is the one analysed
 mod     <- mod_log
 aov_tab <- Anova(mod, type = 2)
 cat("\nType II ANOVA, log(FW):\n"); print(aov_tab)

@@ -14,13 +14,9 @@
 ## three temperatures, anthocyanin at 20 and 40 degrees C only.
 ##
 ## Model : trait ~ Genotype * Temperature (fixed effects), Type II ANOVA (car::Anova).
-## Scale : the four pigment traits are analysed on the log scale as a set so that the
-##         panels of the figure are compared on one common scale. Shapiro-Wilk and Levene's
-##         test are reported for the raw and the log scale. Chl a+b, carotenoid and the
-##         a/b ratio pass on both scales; anthocyanin fails both on the raw scale (P = 0.03),
-##         and on the log scale has homogeneous variances (Levene P = 0.29) with a departure
-##         from normality (Shapiro P = 0.001) that does not affect the outcome (no cultivar
-##         differences at either temperature under any scale of the letters shown).
+## Scale : natural logarithm for all four traits.
+## Checks: Shapiro-Wilk on the residuals and Levene's test, computed on the raw and the
+##         log scale and written to the assumptions file.
 ## Letters: cultivars compared within each temperature on estimated marginal means
 ##         (emmeans), Tukey-adjusted, compact letter display with "a" = highest mean.
 ## Plot  : genotype x temperature means in original units joined by lines, one line per

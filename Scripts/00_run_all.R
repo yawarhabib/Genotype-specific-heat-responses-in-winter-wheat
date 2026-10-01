@@ -2,14 +2,14 @@
 ###   Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying   ###
 ###                    heat tolerance in six winter wheat cultivars                         ###
 ###                                       ----------                                        ###
-###   Script 00 - Run the complete analysis (scripts 01 to 08) and record the session      ###
+###   Script 00 - Run the complete analysis (scripts 01 to 09) and record the session      ###
 ###                                       ----------                                        ###
 ###   Author: Yawar Habib                                                                   ###
 ###############################################################################################
 
 ######### DESCRIPTION #########################################################################
 
-## Sources the eight analysis scripts in order. Each script is self-contained and can also
+## Sources the nine analysis scripts in order. Each script is self-contained and can also
 ## be run on its own; this runner only fixes the order and records the R session used.
 ##
 ##   01_fresh_weight.R          Fig. 1   shoot fresh weight
@@ -20,9 +20,11 @@
 ##   06_PAL.R                   Fig. 6   PAL
 ##   07_polyamines.R            Fig. 7   SPM, SPD, CAD, PUT, DAP
 ##   08_multivariate_STI.R      Fig. 8, Fig. 9, Fig. S1   PCA, STI heatmap, Spearman matrix
+##   09_supplementary_tables_FigS2.R   Tables S1, S2, Fig. S2   means and ANOVA tables,
+##                              correlations within temperature (uses the outputs of 01-08)
 ##
 ## Input : data/ (15 csv files)
-## Output: figures/ (10 tiff files), results/ (csv tables), results/sessionInfo.txt
+## Output: figures/ (11 tiff files), results/ (csv tables), results/sessionInfo.txt
 
 ######### INITIALISATION OF THE WORKING SPACE ##################################################
 
@@ -37,7 +39,7 @@ setwd(main_dir)
 
 scripts <- c("01_fresh_weight.R", "02_gas_exchange.R", "03_pigments.R",
              "04_antioxidant_enzymes.R", "05_carbonyl_enzymes.R", "06_PAL.R",
-             "07_polyamines.R", "08_multivariate_STI.R")
+             "07_polyamines.R", "08_multivariate_STI.R", "09_supplementary_tables_FigS2.R")
 
 for (s in scripts) {
   cat("\n\n############################  ", s, "  ############################\n\n", sep = "")

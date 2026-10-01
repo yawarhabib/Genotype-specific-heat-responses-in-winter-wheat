@@ -13,9 +13,9 @@
 ## wheat cultivars at 20 (control), 35 and 40 degrees C.
 ##
 ## Model : PAL ~ Genotype * Temperature (fixed effects), Type II ANOVA (car::Anova).
-## Scale : untransformed. Shapiro-Wilk on the residuals and Levene's test pass on the raw
-##         scale (P = 0.052 and 0.17); log and square-root transforms both fail and are
-##         reported for comparison in the assumptions file.
+## Scale : untransformed.
+## Checks: Shapiro-Wilk on the residuals and Levene's test, computed on the raw, log and
+##         square-root scales and written to the assumptions file.
 ## Letters: cultivars compared within each temperature on estimated marginal means
 ##         (emmeans), Tukey-adjusted, compact letter display with "a" = highest mean.
 ## Plot  : violin + inner box plot + individual observations per genotype x temperature,
@@ -91,11 +91,11 @@ assumptions <- data.frame(
                 shapiro.test(residuals(mod_sqrt))$p.value),
   levene_F  = c(lev$`F value`[1], lev_log$`F value`[1], lev_sqrt$`F value`[1]),
   levene_P  = c(lev$`Pr(>F)`[1],  lev_log$`Pr(>F)`[1],  lev_sqrt$`Pr(>F)`[1]))
-cat("\nAssumption checks (raw scale used; log and sqrt for comparison):\n")
+cat("\nAssumption checks on the raw (analysed), log and square-root scales:\n")
 print(assumptions, digits = 3)
 write.csv(assumptions, "results/06_PAL_assumptions.csv", row.names = FALSE)
 
-## Raw scale passes both tests -> analysed untransformed
+## The untransformed model is the one analysed
 aov_tab <- Anova(mod, type = 2)
 cat("\nType II ANOVA:\n"); print(aov_tab)
 write.csv(cbind(trait = "PAL", scale = "none", term = rownames(aov_tab), as.data.frame(aov_tab)),

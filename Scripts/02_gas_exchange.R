@@ -16,11 +16,9 @@
 ## collinear with temperature).
 ##
 ## Model : trait ~ Genotype * Temperature (fixed effects), Type II ANOVA (car::Anova).
-## Scale : all four traits are analysed on the log scale so that the four panels of the
-##         figure are compared on one common scale. Shapiro-Wilk and Levene's test are
-##         reported for the raw and the log scale; Pn, gs and E pass on both, WUE shows a
-##         mild departure from normality on both scales (Shapiro P = 0.03 raw, 0.02 log)
-##         with homogeneous variances (Levene P > 0.85), which the F-test tolerates.
+## Scale : natural logarithm for all four traits.
+## Checks: Shapiro-Wilk on the residuals and Levene's test, computed on the raw and the
+##         log scale and written to the assumptions file.
 ## Letters: cultivars compared within each temperature on estimated marginal means
 ##         (emmeans), Tukey-adjusted, compact letter display with "a" = highest mean.
 ## Plot  : one radar per trait (A Pn, B gs, C E, D WUE); genotype x temperature means

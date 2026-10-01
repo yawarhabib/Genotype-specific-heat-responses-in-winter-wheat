@@ -13,7 +13,7 @@
 ## = 18 rows) of every trait measured in scripts 01-07: shoot fresh weight, gas exchange,
 ## pigments, AsA-GSH enzymes and GST, reactive-carbonyl enzymes, PAL and polyamines.
 ##
-## PCA (Fig. 8) : prcomp on the standardised means of 22 traits. Vapour-pressure deficit
+## PCA (Fig. 8) : prcomp on the standardised means of 21 traits. Vapour-pressure deficit
 ##                (collinear with temperature) and anthocyanin (measured at 20 and 40 C
 ##                only) are excluded so that all 18 samples enter the ordination. Biplot of
 ##                sample scores (68 % normal ellipses per temperature) and trait loadings,
@@ -152,7 +152,7 @@ cat("\nVariance explained (%):\n"); print(var_exp)
 
 ## The sign of a principal component is arbitrary. Orient the axes so that the control
 ## (20 C) samples score positive on PC1 and the 35 C samples positive on PC2, the
-## orientation described in the Results; scores and loadings are flipped together.
+## orientation shown in Fig. 8; scores and loadings are flipped together.
 flip <- c(PC1 = sign(mean(pca$x[all_means$Temperature == "20C", "PC1"])),
           PC2 = sign(mean(pca$x[all_means$Temperature == "35C", "PC2"])))
 for (pc in names(flip)) {

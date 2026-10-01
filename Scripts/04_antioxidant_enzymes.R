@@ -15,12 +15,9 @@
 ## glutathione S-transferase (GST), all in nkat per g fresh weight.
 ##
 ## Model : activity ~ Genotype * Temperature (fixed effects), Type II ANOVA (car::Anova).
-## Scale : chosen per enzyme from Shapiro-Wilk (residuals) and Levene's test, which are
-##         reported for the raw scale and for the scale used:
-##           APX  untransformed  (raw passes both tests)
-##           DHAR log            (raw Shapiro P = 0.053, transformed as a precaution)
-##           GR   log            (raw Shapiro P = 0.011)
-##           GST  square root    (raw Shapiro P = 0.031; log over-corrects and fails both)
+## Scale : APX untransformed, DHAR and GR natural logarithm, GST square root.
+## Checks: Shapiro-Wilk on the residuals and Levene's test, computed on the raw scale and
+##         on the scale used and written to the assumptions file.
 ## Letters: cultivars compared within each temperature on estimated marginal means
 ##         (emmeans), Tukey-adjusted, compact letter display with "a" = highest mean.
 ## Plot  : violin + inner box plot + individual observations per genotype x temperature,

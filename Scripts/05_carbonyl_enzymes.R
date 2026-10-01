@@ -14,13 +14,9 @@
 ## alkenal/alkenone oxidoreductase (AOR/AER) and glyoxalase I (GLY I), nkat per g FW.
 ##
 ## Model : activity ~ Genotype * Temperature (fixed effects), Type II ANOVA (car::Anova).
-## Scale : chosen per enzyme from Shapiro-Wilk (residuals) and Levene's test, which are
-##         reported for the raw scale and for the scale used:
-##           AKR      untransformed  (raw passes both tests)
-##           AOR/AER  square root    (raw Levene P = 0.034)
-##           GLY I    square root    (raw passes, P = 0.60 / 0.43; the activity spans a
-##                                    six-fold range and the square root stabilises the
-##                                    variance further, Levene P = 0.97)
+## Scale : AKR untransformed, AOR/AER and GLY I square root.
+## Checks: Shapiro-Wilk on the residuals and Levene's test, computed on the raw scale and
+##         on the scale used and written to the assumptions file.
 ## Letters: cultivars compared within each temperature on estimated marginal means
 ##         (emmeans), Tukey-adjusted, compact letter display with "a" = highest mean.
 ## Plot  : A-C violin + inner box plot + individual observations per genotype x

@@ -16,17 +16,9 @@
 ##
 ## Model : content ~ Genotype * Temperature (fixed effects), Type II ANOVA (car::Anova),
 ##         fitted separately for each polyamine.
-## Scale : chosen per polyamine from Shapiro-Wilk (residuals) and Levene's test, which are
-##         reported for the raw scale and for the scale used:
-##           SPM  square root  (raw Shapiro P = 0.007)
-##           SPD  square root  (raw passes, P = 0.14 / 0.87; the square root gives near-
-##                              perfect residual diagnostics, P = 0.90 / 0.85)
-##           CAD  square root  (raw Shapiro P = 0.038)
-##           PUT  square root  (raw Shapiro P < 0.001; no transform normalises the residuals
-##                              because three control plants have unusually high putrescine;
-##                              variances are homogeneous on the square-root scale, Levene
-##                              P = 0.45, and the 40 C differences are large)
-##           DAP  log          (raw Shapiro P < 0.001)
+## Scale : SPM, SPD, CAD and PUT square root, DAP natural logarithm.
+## Checks: Shapiro-Wilk on the residuals and Levene's test, computed on the raw scale and
+##         on the scale used and written to the assumptions file.
 ## Letters: cultivars compared within each temperature on estimated marginal means
 ##         (emmeans), Tukey-adjusted, compact letter display with "a" = highest mean.
 ## Plot  : bars = means + SE in original units; facet rows = temperature, facet columns =

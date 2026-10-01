@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22692577.svg)](https://doi.org/10.5281/zenodo.22692577)
 
-R code and data for the statistical analysis and figures of the manuscript. Repository: https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat · Archived at Zenodo: https://doi.org/10.5281/zenodo.22692577 (concept DOI, resolves to the latest release; v1.0: https://doi.org/10.5281/zenodo.22692578)
+R code and data for the statistical analysis and figures of the manuscript. Repository: https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat · Archived at Zenodo: https://doi.org/10.5281/zenodo.22692577
 
 > Rahman A., Habib Y., Jara Quispe A., Elguera J.P., Krecsák H., Khan I., Pál M., Balla K., Gechev T., Majláth I.
 > *Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars* (manuscript under revision).
@@ -16,7 +16,7 @@ data/          raw measurements, one folder per trait group, one csv per file
 Scripts/       numbered R scripts, one per figure (00 runs them all)
 ```
 
-Running the scripts creates two further folders: `figures/` with the ten figures (300 dpi TIFF) and `results/` with the ANOVA tables, assumption checks, Tukey letters, means and the PCA, STI and correlation tables (csv), plus `sessionInfo.txt`.
+Running the scripts creates two further folders: `figures/` with the eleven figures (300 dpi TIFF) and `results/` with the ANOVA tables, assumption checks, Tukey letters, means and the PCA, STI and correlation tables (csv), plus `sessionInfo.txt`.
 
 ### Data
 
@@ -44,9 +44,10 @@ Every file has a `Genotype` column with the cultivar code (TAR, KOL, LUC, PIR, I
 | `06_PAL.R` | Fig. 6 | PAL, violin plot |
 | `07_polyamines.R` | Fig. 7 | polyamines, faceted bar plot |
 | `08_multivariate_STI.R` | Fig. 8, Fig. 9, Fig. S1 | PCA biplot, stress-tolerance-index heatmap, Spearman correlation matrix |
-| `00_run_all.R` | — | runs 01 to 08 in order and writes `results/sessionInfo.txt` |
+| `09_supplementary_tables_FigS2.R` | Tables S1, S2, Fig. S2 | means ± SE with Tukey letters and ANOVA results of every trait; Spearman correlations within temperature. Uses the outputs of 01 to 08 |
+| `00_run_all.R` | — | runs 01 to 09 in order and writes `results/sessionInfo.txt` |
 
-Each script starts with a header describing the model, the scale on which the trait was analysed and why, and its inputs and outputs. The statistical procedure is the same throughout: a two-way linear model (genotype × temperature), Type II ANOVA (`car::Anova`), Shapiro–Wilk and Levene checks on the raw scale and on the scale used, and Tukey-adjusted comparisons of the cultivars within each temperature on estimated marginal means (`emmeans`), summarised as compact letter displays in which `a` marks the highest mean.
+Each script starts with a header describing the model, the scale on which the trait was analysed, and its inputs and outputs. The statistical procedure is the same throughout: a two-way linear model (genotype × temperature), Type II ANOVA (`car::Anova`), Shapiro–Wilk and Levene checks on the raw scale and on the scale used, and Tukey-adjusted comparisons of the cultivars within each temperature on estimated marginal means (`emmeans`), summarised as compact letter displays in which `a` marks the highest mean.
 
 ## How to run
 
@@ -69,7 +70,7 @@ BiocManager::install("ComplexHeatmap")
 
 ## How to cite
 
-Habib, Y. (2026). Data and analysis code: Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars (v1.0). Zenodo. https://doi.org/10.5281/zenodo.22692577
+Habib, Y. (2026). Data and analysis code: Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars (v1.1). Zenodo. https://doi.org/10.5281/zenodo.22692577
 
 ## Licence
 
