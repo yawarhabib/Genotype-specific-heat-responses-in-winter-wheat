@@ -70,13 +70,9 @@ BiocManager::install("ComplexHeatmap")
 
 ## How to cite
 
-Article:
+If you use this code or data, please cite the article:
 
 Rahman A., Habib Y., Jara Quispe A., Elguera J.P., Krecsák H., Khan I., Pál M., Balla K., Gechev T., Majláth I. (2026). Genotype-specific antioxidant, reactive-carbonyl, and polyamine responses underlying heat tolerance in six winter wheat cultivars. *Frontiers in Plant Science* 17:1973386. https://doi.org/10.3389/fpls.2026.1973386
-
-Code and data:
-
-Habib, Y. (2026). Data and analysis code: Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars (v1.1). Zenodo. https://doi.org/10.5281/zenodo.22692577
 
 ## Licence
 
