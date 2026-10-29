@@ -2,6 +2,8 @@
 
 [![Article DOI](https://img.shields.io/badge/Article_DOI-10.3389%2Ffpls.2026.1973386-brightgreen)](https://doi.org/10.3389/fpls.2026.1973386)
 [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22692577.svg)](https://doi.org/10.5281/zenodo.22692577)
+[![Code: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
+[![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC_BY_4.0-lightgrey.svg)](data/LICENSE)
 
 R code and data that reproduce the statistical analysis and figures of the article below.
 
