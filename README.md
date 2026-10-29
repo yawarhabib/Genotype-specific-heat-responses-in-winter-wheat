@@ -5,6 +5,11 @@
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC_BY_4.0-lightgrey.svg)](data/LICENSE)
 
+<p align="center">
+  <img src="docs/Fig9_STI_heatmap.png" alt="Stress-tolerance-index heatmap of the six cultivars at 35 and 40 degrees C" width="800">
+</p>
+<p align="center"><em>Fig. 9. Z-scored stress-tolerance index of every trait for the six cultivars at 35 °C and 40 °C, produced by</em> <code>Scripts/08_multivariate_STI.R</code>.</p>
+
 R code and data that reproduce the statistical analysis and figures of the article below.
 
 > Rahman A., Habib Y., Jara Quispe A., Elguera J.P., Krecsák H., Khan I., Pál M., Balla K., Gechev T., Majláth I. (2026)
