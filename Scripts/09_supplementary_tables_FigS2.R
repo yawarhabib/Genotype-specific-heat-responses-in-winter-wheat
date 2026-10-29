@@ -65,7 +65,7 @@ cultivars <- c(TAR = "Mv Tarsoly", KOL = "Mv Kolompos", LUC = "Mv Lucilla",
 to_code <- function(g) ifelse(g %in% names(cultivars), g, names(cultivars)[match(g, cultivars)])
 to_temp <- function(t) paste0(sub("[^0-9].*$", "", t), " °C")       # "20", "20C", "20°C" -> "20 °C"
 
-## Traits in the order of the manuscript, with unit, figure and scale of analysis
+## Traits in the order of the article, with unit, figure and scale of analysis
 trait_info <- tribble(
   ~key,            ~Trait,                              ~Unit,               ~Group,                        ~Figure,   ~Scale,
   "FW",            "Shoot fresh weight",                "g per plant",       "Growth",                      "Fig. 1",  "log",
