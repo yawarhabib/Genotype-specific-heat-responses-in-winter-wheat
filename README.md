@@ -22,6 +22,7 @@ Six Martonvásár winter wheat cultivars (Mv Tarsoly, Mv Kolompos, Mv Lucilla, M
 ```
 data/          raw measurements, one folder per trait group, one csv per file
 Scripts/       numbered R scripts, one per figure (00 runs them all)
+docs/          figure preview shown in this README
 ```
 
 Running the scripts creates two further folders: `figures/` with the eleven figures (300 dpi TIFF) and `results/` with the ANOVA tables, assumption checks, Tukey letters, means and the PCA, STI and correlation tables (csv), plus `sessionInfo.txt`.
