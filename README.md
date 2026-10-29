@@ -39,7 +39,7 @@ Running the scripts creates two further folders: `figures/` with the eleven figu
 | `PAL` | `PAL.csv` | PAL activity, nkat g⁻¹ FW | 4–5 |
 | `Polyamines` | `PA_polyamines.csv` | DAP, PUT, CAD, SPD, SPM, µg g⁻¹ FW | 5 |
 
-Every file has a `Genotype` column with the cultivar code (TAR, KOL, LUC, PIR, IKV, DAN) and a `Temperature` column (`20C`, `35C`, `40C`). Files whose figures show full cultivar names also carry them in a `Cultivar` column; the gas exchange file carries the full name in `Genotype` and the code in `Genotype_code`. One cadaverine value (Mv Ikva, 20 °C) is missing and is recorded as `NA`.
+Every file has a `Genotype` column with the cultivar code (TAR, KOL, LUC, PIR, IKV, DAN) and a `Temperature` column (`20C`, `35C`, `40C`). Files whose figures show full cultivar names also carry them in a `Cultivar` column; the gas exchange file carries the full name in `Genotype`, the code in `Genotype_code` and the temperature as `20`, `35`, `40`. Column names and units of every file are listed in `data/README.md`. One cadaverine value (Mv Ikva, 20 °C) is missing and is recorded as `NA`.
 
 ### Scripts
 
