@@ -5,6 +5,7 @@
 ###   Script 03 - Photosynthetic pigments: two-way ANOVA, Tukey letters, line plots (Fig. 3)###
 ###                                       ----------                                        ###
 ###   Author: Yawar Habib                                                                   ###
+###   Article: Front. Plant Sci. 17:1973386, https://doi.org/10.3389/fpls.2026.1973386      ###
 ###############################################################################################
 
 ######### DESCRIPTION #########################################################################

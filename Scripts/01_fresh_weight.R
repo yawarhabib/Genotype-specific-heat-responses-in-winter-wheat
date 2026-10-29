@@ -5,6 +5,7 @@
 ###   Script 01 - Shoot fresh weight: two-way ANOVA, Tukey letters and radar plot (Fig. 1) ###
 ###                                       ----------                                        ###
 ###   Author: Yawar Habib                                                                   ###
+###   Article: Front. Plant Sci. 17:1973386, https://doi.org/10.3389/fpls.2026.1973386      ###
 ###############################################################################################
 
 ######### DESCRIPTION #########################################################################

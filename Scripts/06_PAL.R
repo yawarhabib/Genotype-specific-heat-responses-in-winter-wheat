@@ -5,6 +5,7 @@
 ###   Script 06 - Phenylalanine ammonia-lyase: two-way ANOVA, Tukey letters, violin (Fig. 6)###
 ###                                       ----------                                        ###
 ###   Author: Yawar Habib                                                                   ###
+###   Article: Front. Plant Sci. 17:1973386, https://doi.org/10.3389/fpls.2026.1973386      ###
 ###############################################################################################
 
 ######### DESCRIPTION #########################################################################
