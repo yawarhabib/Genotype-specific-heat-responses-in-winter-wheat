@@ -59,9 +59,17 @@ Each script starts with a header describing the model, the scale on which the tr
 
 ## How to run
 
+Requires R 4.4 or later and the packages listed below.
+
 1. Clone or download the repository and open `Genotype-specific-heat-responses-in-winter-wheat.Rproj` in RStudio, or start R in the repository root. The scripts locate the root with the `here` package, so they can be run from any working directory inside the project.
 2. Install the packages listed below if needed.
-3. Run `Scripts/00_run_all.R`, or any single script. Figures are written to `figures/` and tables to `results/`.
+3. Run everything with
+
+   ```r
+   source(here::here("Scripts", "00_run_all.R"))
+   ```
+
+   or run any single script. Figures are written to `figures/` and tables to `results/`.
 
 The analysis was run with R 4.4.0 on Windows; `00_run_all.R` records the exact package versions of a run in `results/sessionInfo.txt`.
 
