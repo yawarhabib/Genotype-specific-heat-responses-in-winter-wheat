@@ -53,7 +53,7 @@ Every file has a `Genotype` column with the cultivar code (TAR, KOL, LUC, PIR, I
 | `07_polyamines.R` | Fig. 7 | polyamines, faceted bar plot |
 | `08_multivariate_STI.R` | Fig. 8, Fig. 9, Fig. S1 | PCA biplot, stress-tolerance-index heatmap, Spearman correlation matrix |
 | `09_supplementary_tables_FigS2.R` | Tables S1, S2, Fig. S2 | means ± SE with Tukey letters and ANOVA results of every trait; Spearman correlations within temperature. Uses the outputs of 01 to 08 |
-| `00_run_all.R` | — | runs 01 to 09 in order and writes `results/sessionInfo.txt` |
+| `00_run_all.R` | all | runs 01 to 09 in order and writes `results/sessionInfo.txt` |
 
 Each script starts with a header describing the model, the scale on which the trait was analysed, and its inputs and outputs. The statistical procedure is the same throughout: a two-way linear model (genotype × temperature), Type II ANOVA (`car::Anova`), Shapiro–Wilk and Levene checks on the raw scale and on the scale used, and Tukey-adjusted comparisons of the cultivars within each temperature on estimated marginal means (`emmeans`), summarised as compact letter displays in which `a` marks the highest mean.
 
@@ -96,4 +96,4 @@ Code: [MIT](LICENSE). Data (`data/`): [CC BY 4.0](data/LICENSE).
 
 ## Contact
 
-Yawar Habib (analysis and code) — Center for Bio and Medical Technologies, Skolkovo Institute of Science and Technology, Moscow, Russia. y.habib@skoltech.ru · GitHub: [@yawarhabib](https://github.com/yawarhabib)
+Yawar Habib (analysis and code), Center for Bio and Medical Technologies, Skolkovo Institute of Science and Technology, Moscow, Russia. y.habib@skoltech.ru · GitHub: [@yawarhabib](https://github.com/yawarhabib)
