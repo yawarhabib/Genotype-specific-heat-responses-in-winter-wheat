@@ -3,7 +3,7 @@
 [![Article DOI](https://img.shields.io/badge/Article_DOI-10.3389%2Ffpls.2026.1973386-brightgreen)](https://doi.org/10.3389/fpls.2026.1973386)
 [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22692577.svg)](https://doi.org/10.5281/zenodo.22692577)
 
-R code and data for the statistical analysis and figures of the article below. Repository: https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat · Archived at Zenodo: https://doi.org/10.5281/zenodo.22692577
+R code and data that reproduce the statistical analysis and figures of the article below.
 
 > Rahman A., Habib Y., Jara Quispe A., Elguera J.P., Krecsák H., Khan I., Pál M., Balla K., Gechev T., Majláth I. (2026)
 > *Genotype-specific antioxidant, reactive-carbonyl, and polyamine responses underlying heat tolerance in six winter wheat cultivars.* Frontiers in Plant Science 17:1973386. https://doi.org/10.3389/fpls.2026.1973386
