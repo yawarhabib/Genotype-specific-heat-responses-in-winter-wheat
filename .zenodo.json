@@ -1,7 +1,7 @@
 {
   "title": "Data and analysis code: Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars",
   "upload_type": "software",
-  "description": "Raw data and R scripts that reproduce every statistical analysis and figure of the manuscript \"Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars\" (Rahman, Habib et al.). Six Martonvasar winter wheat cultivars were grown at 20, 35 and 40 degrees C and profiled for shoot biomass, leaf gas exchange, photosynthetic pigments, ascorbate-glutathione enzymes, reactive-carbonyl detoxification enzymes, phenylalanine ammonia-lyase and free polyamines. Numbered scripts fit two-way linear models with Type II ANOVA and Tukey-adjusted comparisons within temperature, run the principal component analysis, the stress-tolerance-index heatmap and the Spearman correlation matrices, and assemble the supplementary tables. Code is released under the MIT licence and the data files under CC BY 4.0.",
+  "description": "Raw data and R scripts that reproduce every statistical analysis and figure of the article \"Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars\" (Rahman, Habib et al., 2026, Frontiers in Plant Science 17:1973386, https://doi.org/10.3389/fpls.2026.1973386). Six Martonvasar winter wheat cultivars were grown at 20, 35 and 40 degrees C and profiled for shoot biomass, leaf gas exchange, photosynthetic pigments, ascorbate-glutathione enzymes, reactive-carbonyl detoxification enzymes, phenylalanine ammonia-lyase and free polyamines. Numbered scripts fit two-way linear models with Type II ANOVA and Tukey-adjusted comparisons within temperature, run the principal component analysis, the stress-tolerance-index heatmap and the Spearman correlation matrices, and assemble the supplementary tables. Code is released under the MIT licence and the data files under CC BY 4.0.",
   "creators": [
     {
       "name": "Habib, Yawar",
@@ -10,6 +10,14 @@
   ],
   "license": "MIT",
   "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.3389/fpls.2026.1973386",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ],
   "keywords": [
     "Triticum aestivum",
     "heat stress",

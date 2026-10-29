@@ -2,10 +2,10 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22692577.svg)](https://doi.org/10.5281/zenodo.22692577)
 
-R code and data for the statistical analysis and figures of the manuscript. Repository: https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat · Archived at Zenodo: https://doi.org/10.5281/zenodo.22692577
+R code and data for the statistical analysis and figures of the article below. Repository: https://github.com/yawarhabib/Genotype-specific-heat-responses-in-winter-wheat · Archived at Zenodo: https://doi.org/10.5281/zenodo.22692577
 
-> Rahman A., Habib Y., Jara Quispe A., Elguera J.P., Krecsák H., Khan I., Pál M., Balla K., Gechev T., Majláth I.
-> *Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars* (manuscript under revision).
+> Rahman A., Habib Y., Jara Quispe A., Elguera J.P., Krecsák H., Khan I., Pál M., Balla K., Gechev T., Majláth I. (2026)
+> *Genotype-specific antioxidant, reactive-carbonyl, and polyamine responses underlying heat tolerance in six winter wheat cultivars.* Frontiers in Plant Science 17:1973386. https://doi.org/10.3389/fpls.2026.1973386
 
 Six Martonvásár winter wheat cultivars (Mv Tarsoly, Mv Kolompos, Mv Lucilla, Mv Pirkadat, Mv Ikva, Mv Dandár) were grown at 20 °C (control), 35 °C and 40 °C and profiled for shoot biomass, leaf gas exchange, photosynthetic pigments, ascorbate–glutathione enzymes, reactive-carbonyl detoxification enzymes, phenylalanine ammonia-lyase and free polyamines. Every figure and every number quoted in the Results is produced by the scripts in this repository from the data files as provided.
 
@@ -69,6 +69,12 @@ BiocManager::install("ComplexHeatmap")
 ```
 
 ## How to cite
+
+Article:
+
+Rahman A., Habib Y., Jara Quispe A., Elguera J.P., Krecsák H., Khan I., Pál M., Balla K., Gechev T., Majláth I. (2026). Genotype-specific antioxidant, reactive-carbonyl, and polyamine responses underlying heat tolerance in six winter wheat cultivars. *Frontiers in Plant Science* 17:1973386. https://doi.org/10.3389/fpls.2026.1973386
+
+Code and data:
 
 Habib, Y. (2026). Data and analysis code: Genotype-specific antioxidant, reactive-carbonyl and polyamine responses underlying heat tolerance in six winter wheat cultivars (v1.1). Zenodo. https://doi.org/10.5281/zenodo.22692577
 
